@@ -1,0 +1,30 @@
+name: バグ報告
+title: "【バグ】 "
+description: "バグを発見/報告する場合はこちら"
+labels: 🐛バグ
+#assignees: " "
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## 下記を記入してください
+- type: textarea
+  id: feature
+  attributes:
+    label: 内容
+    description: バグの詳細な内容を記載してください。発生条件が判明している場合は発生条件も記載してください。
+- type: textarea
+  id: description
+  attributes:
+    label: 説明
+    description: 想定されている挙動を記載してください。
+- type: dropdown
+  id: priority
+  attributes:
+    label: 優先度
+    description: このバグの修正優先度を選択してください。
+    options:
+      - 高(最優先で実装、実装しないと他が間に合わない)
+      - 中(早めに実装、最優先ではないが実装しないと作成できない部分がある場合に)
+      - 低(最後の方に実装しても順序上困らない場合)
