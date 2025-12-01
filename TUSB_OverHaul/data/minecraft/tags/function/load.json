@@ -1,5 +1,6 @@
 {
     "values": [
+        "core:load",
         "tusb_overhaul:load"
     ]
 }
