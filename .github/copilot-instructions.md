@@ -9,6 +9,10 @@ minecraft 1.21.10(datapack)
 - 基本的に速度を重視するが、可読性も考慮すること。
 
 # コーディング規則
-- storage名、storage path、scoreboard名、ダミープレイヤー名等々はスネークケースで記載すること(近年のmcのcomponent記法に乗っ取り)
+- スコアボード名はUpperCamelCase、スコアホールダーはsneak_caseを用いること。
+- スコアホールダーにダミープレイヤーを用いる場合は接頭詞に`$`を用いること。
+- 一時的スコアを使用したい場合はスコアボード名`_`、スコアホールダー`$temp`を用いること。
+- ストレージ名はsneak_caseを用い、nbtタグのキーやcomponentのキーはsneak_caseを用いること。
+- functionのファイル名はsneak_caseを用いること。
 - マジックナンバーを使用せず定数を使用すること。
 - 定数を用いる場合、scoreboardの場合はダミープレイヤー、`_`を、storageの場合はダミーpath`_`を用いること。
