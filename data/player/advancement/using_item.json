@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "requirements": [
+    [
+      "trigger"
+    ]
+  ]
+}
