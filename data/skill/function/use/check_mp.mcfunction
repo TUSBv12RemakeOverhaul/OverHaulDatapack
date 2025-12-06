@@ -15,7 +15,7 @@ execute if data storage skill: {using:{sneak_shift:true}} if score @s SneakTime 
 #execute if score @s EnergySave matches 0.. run function skill:act/hunter/energy_save/calc
 
 # 空腹補正
-scoreboard players set $temp _ 2
+scoreboard players set $temp _ 5
 execute if predicate player:is_hunger run scoreboard players operation $temp MP *= $temp _
 
 # MP比較 足りなければ中断して失敗処理を実行
