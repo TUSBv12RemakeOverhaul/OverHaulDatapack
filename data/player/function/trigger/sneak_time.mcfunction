@@ -1,6 +1,6 @@
-#> player:score_reset/sneak_time
+#> player:trigger/sneak_time
 #
-# 攻撃をガードした際に実行される
+# しゃがんだ際に実行される
 #
 # @within function player:trigger/
 

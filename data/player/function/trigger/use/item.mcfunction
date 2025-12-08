@@ -1,4 +1,4 @@
-#> player:using_item
+#> player:trigger/use/item
 #
 # アイテムを使用した際に実行される
 #

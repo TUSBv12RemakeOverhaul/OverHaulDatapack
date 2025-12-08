@@ -1,4 +1,4 @@
-#> player:guard
+#> player:trigger/guard
 #
 # 攻撃をガードした際に実行される
 #
