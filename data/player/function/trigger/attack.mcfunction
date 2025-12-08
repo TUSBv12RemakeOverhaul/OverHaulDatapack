@@ -1,4 +1,4 @@
-#> player:attack
+#> player:trigger/attack
 #
 # entityを殴った際に実行される
 #
