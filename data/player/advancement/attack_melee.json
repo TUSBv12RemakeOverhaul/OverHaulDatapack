@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": true
+              },
+              {
+                "id": "minecraft:bypasses_enchantments",
+                "expected": true
+              },
+              {
+                "id": "minecraft:is_lightning",
+                "expected": true
+              },
+              {
+                "id": "minecraft:is_fall",
+                "expected": true
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": true
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trigger"
+    ]
+  ]
+}
